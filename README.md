@@ -1,73 +1,172 @@
-# React + TypeScript + Vite
+# 🚀 Dharikha Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website showcasing my journey as a developer, product builder, and technology enthusiast.
 
-Currently, two official plugins are available:
+## 🌟 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio highlights my projects, skills, education, achievements, and vision as a B.Tech undergraduate passionate about building impactful technology products.
 
-## React Compiler
+I believe technology is more than writing code — it's about solving problems, creating value, and transforming ideas into reality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Modern Responsive Design
+- Mobile-Friendly Layout
+- Smooth Animations
+- Interactive Project Showcase
+- Skills & Technology Stack
+- Education Timeline
+- Achievements & Vision Section
+- Contact Information
+- Resume Download Option
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
+
+### UI & Design
+- Framer Motion
+- Lucide React
+- Responsive Design Principles
+
+---
+
+## 🚀 Featured Projects
+
+### 🎓 EduTwin
+Education-focused platform designed to enhance learning experiences through technology.
+
+### 🏃 Athletica
+Sports ecosystem platform connecting athletes, coaches, academies, turf owners, clinics, sports associations, and communities.
+
+### 🌐 AI Dialect Translator
+AI-powered solution that translates speech and text across languages and regional dialects.
+
+### 🍰 Homemade Happiness
+A modern bakery web application where customers can browse homemade cakes, brownies, and desserts, then place orders through WhatsApp and UPI payments.
+
+### 🐾 Animal Intrusion Detection System
+IoT and Machine Learning based system that detects animal intrusions and provides real-time alerts.
+
+### 📊 Smart Attendance Management System
+Automated attendance tracking solution designed for efficient record management.
+
+### 💡 Smart Light Control System
+Energy-efficient IoT-based smart lighting automation system.
+
+---
+
+## 🎯 Skills
+
+### Strong In
+- Python
+- C
+- C++
+
+### Currently Learning
+- TypeScript
+- HTML
+- CSS
+- React.js
+- Node.js
+- Git
+- GitHub
+
+### Interests
+- Artificial Intelligence
+- IoT
+- Product Development
+- Entrepreneurship
+
+---
+
+## 📚 Education
+
+### Karunya Institute of Technology and Sciences
+B.Tech Undergraduate (2026 - Present)
+
+Focus Areas:
+- Software Development
+- AI/ML
+- IoT
+- Product Development
+- Entrepreneurship
+
+---
+
+## 🏆 Achievements
+
+- Secured stipend-based internship through project development and innovation
+- Active participant in innovation initiatives
+- Exploring startup ecosystems
+- Learning product strategy
+- Building real-world solutions
+
+---
+
+## 🌍 Vision
+
+My vision is to build impactful technology products that solve meaningful problems, create opportunities, and empower people.
+
+I aspire to combine technology, design, and business thinking to create solutions that generate lasting impact.
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Dharikha06072007/future_fs_01.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd future_fs_01
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+📧 Email: dharikha27@gmail.com
+
+💻 GitHub:
+https://github.com/Dharikha06072007
+
+🔗 LinkedIn:
+https://linkedin.com/in/dharikha-u-07343a37a
+
+📍 Tamil Nadu, India
+
+---
+
+## 💬 Quote
+
+> "I don't wait for opportunities to appear. I build them."
+
+---
+
+### © 2026 Dharikha U
+Built with passion, curiosity, and continuous learning 🚀
